@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kiwi+Maru:wght@400;500&family=Kosugi+Maru&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yusei+Magic&family=Zen+Kurenaido&display=swap');
+
 * {
     margin: 0;
 }
@@ -10,5 +12,7 @@ body {
     background-image: url(/src/assets/wallpaper_00018.jpg);
     background-size: cover;
     background-position: center;
+    font-family: "Noto Sans JP", serif;
+    font-weight: 350;
 }
 

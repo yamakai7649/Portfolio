@@ -85,6 +85,7 @@ const AdditionalInfo = styled.div`
 
 const Name = styled.strong`
     font-size:1.25rem;
+    font-weight:500;
 `
 
 const From = styled.small`

@@ -126,9 +126,13 @@ export default function Works() {
             thumbnail: PortfolioImage,
             name: "Portfolio",
             description: "このWebページはReactを使用して構築しました。フロントエンドのみの構成で、静的サイトとしてVercelにデプロイしています。GitHubと連携し、継続的な改善と更新を効率化しました。",
-            GitHubUrl: "https://GitHub/example/12345678"
+            GitHubUrl: "https://github.com/yamakai7649/Portfolio"
         }
     ];
+
+    const handleClick = () => {
+        window.open("https://minidiary.onrender.com", "_blank");
+    }
 
   return (
       <ViewPort>
@@ -139,7 +143,7 @@ export default function Works() {
                   {works.map((work) => {
                       return (
                           <Work>
-                              <WorkThumbnail src={work.thumbnail}></WorkThumbnail>
+                              <WorkThumbnail src={work.thumbnail} onClick={work.name === "Mini Diary App" ? handleClick : undefined}></WorkThumbnail>
                               <WorkName>{work.name}</WorkName>
                               <WorkDescription>{work.description}</WorkDescription>
                               <WorkGitHubUrl href={work.GitHubUrl}>{work.GitHubUrl}</WorkGitHubUrl>

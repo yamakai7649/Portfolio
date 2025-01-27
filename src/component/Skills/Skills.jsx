@@ -60,6 +60,7 @@ const SkillSection = styled.div`
 `
 const SkillHeading = styled.h3`
     font-size:1.5rem;
+    font-weight:450;
 `
 const SkillContent = styled.p`
     
