@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/src/assets/wallpaper_00018.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
