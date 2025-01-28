@@ -1,9 +1,66 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+こんにちは！このリポジトリには、私がこれまでに制作したプロジェクトのリストがあります。それぞれのプロジェクトで学んだことや使用した技術を通じて、私のスキルをお伝えしたいと思っています。
 
-Currently, two official plugins are available:
+## 🌟 主なプロジェクト
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1.MiniDiary
+
+・**概要**:  シンプルかつ直感的な日記アプリ。忙しい日常でも簡単に記録を残せる設計です。
+
+・**技術スタック**:  React, Node.js, MongoDB, Express
+
+・**主な機能**:  
+
+    ・日記作成・編集・削除
+
+    ・いいね・コメント・フォロー機能
+
+    ・画像アップロード
+
+・**リポジトリ**:  [MiniDiary GitHub](https://github.com/yamakai7649/MiniDiary-Backend)
+
+・**デモ**:  [MiniDiary](https://minidiary.onrender.com)
+
+### 1.Portfolio
+
+・**概要**:  自分自身をアピールするためのポートフォリオ。シンプルでモダンなデザインに構成しました。
+
+・**技術スタック**:  React
+
+・**主な機能**:  
+
+    ・自己紹介、スキル、プロジェクト紹介ページ
+
+    ・レスポンシブ対応でモバイルでも快適な閲覧体験
+
+    ・GitHubやアプリへのリンクを簡単にアクセス可能
+
+・**デモ**:  [Portfolio](https://portfolio-git-main-yamakais-projects.vercel.app/)
+
+## 💡 ポートフォリオでのこだわり
+
+1.**モダンなUI/UXデザイン**  
+シンプルで洗練されたデザインを採用し、訪問者が直感的に操作できる構成を意識。
+
+2.**技術スタックの強調**  
+各プロジェクトで使用した技術を明確に記載し、スキルをアピール。
+
+3.**GitHub連携**  
+プロジェクトのコードリポジトリに簡単にアクセスできるリンクを設置。
+
+4.**レスポンシブ対応**  
+スマートフォンやタブレットでも見やすいレイアウトを意識。
+
+5.**アイキャッチのある自己紹介**  
+名前や肩書きを大きく表示し、一目で何者かわかるようにする
+
+
+## 📧 問い合わせ
+
+もしプロジェクトについてご質問があれば、以下の連絡先までどうぞ！
+
+・**GitHub**:  [yamakai7649](https://github.com/yamakai7649)
+
+・**メールアドレス**:  haishanben8@gmail.com
 
