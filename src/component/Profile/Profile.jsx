@@ -11,6 +11,10 @@ const ViewPort = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
+
+    @media (max-width:650px) {
+        height:120vh;
+    }
 `
 
 const Container = styled.div`

@@ -12,7 +12,7 @@ const ViewPort = styled.div`
     align-items:center;
 
     @media (max-width:650px) {
-        height:145vh;
+        height:170vh;
     }
 `
 
